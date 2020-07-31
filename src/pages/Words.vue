@@ -2,7 +2,7 @@
   <q-page class="flex flex-center">
     <div class="q-pa-md">
       <div class="column items-center">
-        {{ word }}
+        <p>{{ word }}</p>
       </div>
       <div class="column">
         <q-btn label="show" @click="showWord" v-show="!unhide"/>
@@ -15,7 +15,7 @@
 <script>
 
 export default {
-  name: 'Configure',
+  name: 'Words',
   data () {
     return {
       unhide: false,

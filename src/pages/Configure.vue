@@ -9,6 +9,7 @@
     </q-item>
     <q-uploader
         label="Individual upload"
+        :multiple="false"
         @uploaded="upload"
         @added="addFile"
       ></q-uploader>
